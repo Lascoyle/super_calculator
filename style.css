@@ -39,6 +39,10 @@ body {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     background: rgb(32, 32, 32);
+    color: lightgray;
+    text-align: right;
+    padding: 30px;
+    padding-right: 18px;
 }
 
 /*Operators positionning*/
