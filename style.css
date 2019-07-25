@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+/*Main calculator design*/
+
+.background
+{
+    height: 300px;
+    width: 20%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px; 
+    background: skyblue;
+}
+
+.calculator
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+.calculator__screen
+{
+    height: 100px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: rgb(32, 32, 32);
+}
+
+/*Operators positionning*/
+.calculator__operators
+{
+    display: flex;
+    justify-content: center;
+}
+
+.operator
+{
+    width: 25%;
+}
+
+/*Result and Numbers pré-agencement*/
+.container-nb-rslt
+{
+    display: flex;
+}
+
+/*Numbers positionning*/
+.calculator__numbers
+{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.number
+{
+    width: 33%;
+}
+
+/*Result positionning*/
+.calculator__result
+{
+    width: 25%;
+}
+
+.result
+{
+    width: 100%;
+    height: 138px;
+}
